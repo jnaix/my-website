@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charity: Water</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffe3d3;
+    }
+
+    header {
+      background-color: #ffe3d3;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      border-bottom: 2px solid #f0c49c;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+
+    .logo img {
+      width: 30px;
+      margin-right: 10px;
+    }
+
+    nav button {
+      margin-left: 10px;
+      background-color: #ffd000;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .hero {
+      position: relative;
+      background-image: url('placeholder-hero.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: left;
+    }
+
+    .hero-text {
+      background-color: rgba(255, 208, 0, 0.9);
+      color: black;
+      padding: 20px;
+      border-radius: 20px;
+      max-width: 400px;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .subtext {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    .cta {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 40px 0;
+    }
+
+    .cta-box {
+      background-color: #cc6a4d;
+      color: white;
+      padding: 20px;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 80%;
+      max-width: 700px;
+    }
+
+    .cta-box button {
+      margin-left: 20px;
+      background-color: #ffd000;
+      color: black;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    @media (max-width: 600px) {
+      .hero-text {
+        font-size: 1.2em;
+        padding: 15px;
+      }
+      .cta-box {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="placeholder-logo.png" alt="Jerry Can Icon">
+      charity: water
+    </div>
+    <nav>
+      <button>News!</button>
+      <button>Subscribe!</button>
+      <button>About us!</button>
+      <button>Donate!</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      You’re Not Just Giving—You’re Changing Lives
+    </div>
+    <div class="subtext">
+      Real People. Real stories. Real impact. All because of YOU
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="cta-box">
+      <span>Help us bring clean water to communities that go without every day!</span>
+      <button>Subscribe</button>
+    </div>
+  </section>
+</body>
+</html>
